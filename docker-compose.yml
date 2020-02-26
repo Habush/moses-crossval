@@ -1,0 +1,11 @@
+version: "3"
+services:
+  moses_crossval:
+      image: xabush/opencog-jupyter:moses
+      container_name: moses-crossval-dev
+      working_dir: /home/root/moses-crossval
+
+      volumes:
+        - $CODE_DIR:/home/root/moses-crossval
+
+      command: "jupyter-notebook --ip=0.0.0.0 --allow-root"

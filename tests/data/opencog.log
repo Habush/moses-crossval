@@ -1,0 +1,234 @@
+[2019-01-21 12:32:46:778] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-21 12:32:46:910] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 11:54:00:828] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 11:54:00:959] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 15:01:09:224] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 15:01:09:332] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 15:03:52:308] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 15:03:52:403] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 15:11:52:708] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 15:11:52:830] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 16:14:34:427] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-01-22 16:14:34:611] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-03-31 14:31:37:248] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-03-31 14:31:37:398] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-04-02 18:40:34:612] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-04-02 18:40:34:748] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-04-14 15:02:18:640] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
+[2019-04-14 15:02:18:758] [ERROR] Fatal error: invalid or duplicated argument:
+	the argument ('1000-xyz') for option '--hc-crossover-pop-size' is invalid
+ (/tmp/moses-master/moses/moses/main/problem.cc:66)
+	Stack Trace:
+	2: Logger.cc:512	  opencog::Logger::logva(opencog::Logger::Level, char const*, __va_list_tag*)
+	3: Logger.cc:524	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:302	  opencog::AssertionException::AssertionException(char const*, __va_list_tag*)
+	5: oc_assert.cc:45	  opencog::cassert(char const*, bool, char const*, ...)
+	6: problem.cc:65	  opencog::moses::option_manager::parse_options(int, char**)
+	7: moses_exec.cc:53	  opencog::moses::moses_exec(int, char**)
+	8: libc-start.c:325	__libc_start_main()
+	9: [0x4007b9] ??() ??:0
+
