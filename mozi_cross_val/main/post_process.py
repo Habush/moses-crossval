@@ -5,9 +5,9 @@ import pathlib
 
 import pandas as pd
 
-from utils.config import DATASET_DIR
-from filters import loader
-from models.objmodel import Score, MosesModel
+from mozi_cross_val.utils.config import DATASET_DIR
+from mozi_cross_val.filters import loader
+from mozi_cross_val.models.objmodel import Score, MosesModel
 
 
 class PostProcess:

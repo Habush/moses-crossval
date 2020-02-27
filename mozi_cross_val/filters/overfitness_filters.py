@@ -1,6 +1,6 @@
 __author__ = 'Abdulrahman Semrie<hsamireh@gmail.com>'
 
-from filters.base_filter import BaseFilter
+from mozi_cross_val.filters.base_filter import BaseFilter
 
 
 class AccuracyFilter(BaseFilter):

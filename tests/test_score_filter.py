@@ -1,8 +1,8 @@
 __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 
 import unittest
-from filters import loader, base_filter, score_filters
-from models.objmodel import MosesModel, Score
+from mozi_cross_val.filters import loader
+from mozi_cross_val.models.objmodel import MosesModel, Score
 
 
 class TestScoreFilter(unittest.TestCase):

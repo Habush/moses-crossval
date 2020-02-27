@@ -2,8 +2,8 @@ __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 
 import re
 import subprocess
-from utils.config import get_logger
-from models.objmodel import MosesModel
+from mozi_cross_val.utils.config import get_logger
+from mozi_cross_val.models.objmodel import MosesModel
 
 
 class MosesRunner:

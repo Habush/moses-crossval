@@ -1,11 +1,11 @@
-from filters.loader import get_score_filters
-from models.objmodel import MosesModel, Score
+from mozi_cross_val.filters.loader import get_score_filters
+from mozi_cross_val.models.objmodel import MosesModel, Score
 
 __author__ = "Abdulrahman Semrie<xabush@singularitynet.io>"
 import unittest
-from utils.config import TEST_DATA_DIR, moses_options, crossval_options
+from mozi_cross_val.utils.config import TEST_DATA_DIR, moses_options, crossval_options
 import os
-from main.moses_cross_val import CrossValidation
+from mozi_cross_val.main import CrossValidation
 import pandas as pd
 import glob
 from sklearn.model_selection import train_test_split

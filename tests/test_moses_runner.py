@@ -1,8 +1,8 @@
 __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 
-from main.moses_runner import MosesRunner
+from mozi_cross_val.main.moses_runner import MosesRunner
 import unittest
-from utils.config import TEST_DATA_DIR, moses_options
+from mozi_cross_val.utils.config import TEST_DATA_DIR, moses_options
 import os
 
 

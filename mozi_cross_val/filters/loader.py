@@ -2,7 +2,7 @@ __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 
 import importlib
 import inspect
-from  filters.base_filter import BaseFilter
+from mozi_cross_val.filters.base_filter import BaseFilter
 import logging
 
 logger = logging.getLogger("mozi_snet")

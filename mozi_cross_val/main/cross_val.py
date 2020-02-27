@@ -8,11 +8,11 @@ import pandas as pd
 from scipy import stats
 from sklearn.model_selection import ShuffleSplit
 
-from main.model_evaluator import ModelEvaluator
-from main.moses_runner import MosesRunner
-from models.objmodel import EnsembleModel
-from utils.feature_count import combo_parser, ComboTreeTransform
-from utils.config import get_logger
+from mozi_cross_val.main.model_evaluator import ModelEvaluator
+from mozi_cross_val.main.moses_runner import MosesRunner
+from mozi_cross_val.models.objmodel import EnsembleModel
+from mozi_cross_val.utils.feature_count import combo_parser, ComboTreeTransform
+from mozi_cross_val.utils.config import get_logger
 
 
 class CrossValidation:

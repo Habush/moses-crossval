@@ -1,4 +1,4 @@
-from models.objmodel import Score
+from mozi_cross_val.models.objmodel import Score
 
 __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 
@@ -7,7 +7,7 @@ import pandas as pd
 import subprocess
 from mlxtend.evaluate import scoring, mcnemar, mcnemar_table
 import tempfile
-from utils.config import get_logger
+from mozi_cross_val.utils.config import get_logger
 
 
 class ModelEvaluator:

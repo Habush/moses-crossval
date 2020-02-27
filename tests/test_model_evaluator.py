@@ -1,12 +1,12 @@
-from models.objmodel import MosesModel
+from mozi_cross_val.models.objmodel import MosesModel
 
 __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 
 import os
 import unittest
 
-from main.model_evaluator import ModelEvaluator
-from utils.config import TEST_DATA_DIR
+from mozi_cross_val.main.model_evaluator import ModelEvaluator
+from mozi_cross_val.utils.config import TEST_DATA_DIR
 
 
 class TestModelEvaluator(unittest.TestCase):

@@ -1,6 +1,6 @@
 __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 import unittest
-from utils.feature_count import combo_parser, ComboTreeTransform
+from mozi_cross_val.utils.feature_count import combo_parser, ComboTreeTransform
 
 
 class TestComboParser(unittest.TestCase):

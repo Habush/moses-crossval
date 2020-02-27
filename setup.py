@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="moses-crossval",
+    name="moses_crossval",
     version="0.1",
     author="Abdulrahman Semrie",
     author_email="hsamireh@gmail.com",
