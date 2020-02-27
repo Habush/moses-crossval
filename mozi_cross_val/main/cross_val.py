@@ -7,7 +7,7 @@ import tempfile
 import pandas as pd
 from scipy import stats
 from sklearn.model_selection import ShuffleSplit
-
+from mozi_cross_val.filters.loader import get_score_filters
 from mozi_cross_val.main.model_evaluator import ModelEvaluator
 from mozi_cross_val.main.moses_runner import MosesRunner
 from mozi_cross_val.models.objmodel import EnsembleModel
@@ -23,7 +23,7 @@ class CrossValidation:
     def __init__(self, input_path, output_path, target_feature, moses_opts, cross_val_opts, filter_type, value):
 
         self.cwd = output_path
-        self.filter = filter_type
+        self.filter = get_score_filters(filter_type)
         self.filter_value = value
         self.fold_files = []
         self._set_dir()
