@@ -5,7 +5,7 @@ __author__ = "Abdulrahman Semrie<xabush@singularitynet.io>"
 import unittest
 from mozi_cross_val.utils.config import TEST_DATA_DIR, moses_options, crossval_options
 import os
-from mozi_cross_val.main import CrossValidation
+from mozi_cross_val.main.cross_val import CrossValidation
 import pandas as pd
 import glob
 from sklearn.model_selection import train_test_split
@@ -35,7 +35,7 @@ class TestCrossValidation(unittest.TestCase):
                             [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1]]
 
     def test_run_folds(self):
-        filter_type = get_score_filters("accuracy")
+        filter_type = "accuracy"
         moses_cross_val = CrossValidation(self.dataset,TEST_DATA_DIR, "case", moses_options, crossval_options, filter_type, 0.7)
 
         moses_cross_val.run_folds()

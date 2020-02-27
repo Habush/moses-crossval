@@ -11,7 +11,7 @@ logger = logging.getLogger("mozi_snet")
 def get_score_filters(filter_name):
     try:
         filter_name = filter_name.lower().replace("-", "").replace("_", "")
-        module = importlib.import_module(".score_filters", "filters")
+        module = importlib.import_module(".score_filters", "mozi_cross_val.filters")
         classes = inspect.getmembers(module, lambda k: inspect.isclass(k))
 
         for name, _class in classes:
