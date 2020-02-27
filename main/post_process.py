@@ -5,7 +5,7 @@ import pathlib
 
 import pandas as pd
 
-from config import DATASET_DIR
+from utils.config import DATASET_DIR
 from filters import loader
 from models.objmodel import Score, MosesModel
 

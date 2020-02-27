@@ -6,13 +6,13 @@ import tempfile
 
 import pandas as pd
 from scipy import stats
-from sklearn.model_selection import StratifiedShuffleSplit, ShuffleSplit
+from sklearn.model_selection import ShuffleSplit
 
-from model_evaluator import ModelEvaluator
-from moses_runner import MosesRunner
+from main.model_evaluator import ModelEvaluator
+from main.moses_runner import MosesRunner
 from models.objmodel import EnsembleModel
 from utils.feature_count import combo_parser, ComboTreeTransform
-from config import get_logger
+from utils.config import get_logger
 
 
 class CrossValidation:

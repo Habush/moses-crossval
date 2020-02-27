@@ -1,9 +1,8 @@
 __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 
-import re
-from moses_runner import MosesRunner
+from main.moses_runner import MosesRunner
 import unittest
-from config import TEST_DATA_DIR, moses_options
+from utils.config import TEST_DATA_DIR, moses_options
 import os
 
 

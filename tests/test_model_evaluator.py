@@ -5,11 +5,8 @@ __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 import os
 import unittest
 
-import pandas as pd
-from sklearn.model_selection import train_test_split
-
-from model_evaluator import ModelEvaluator
-from config import TEST_DATA_DIR
+from main.model_evaluator import ModelEvaluator
+from utils.config import TEST_DATA_DIR
 
 
 class TestModelEvaluator(unittest.TestCase):

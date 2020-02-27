@@ -5,10 +5,9 @@ __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 import numpy as np
 import pandas as pd
 import subprocess
-import logging
 from mlxtend.evaluate import scoring, mcnemar, mcnemar_table
 import tempfile
-from config import get_logger
+from utils.config import get_logger
 
 
 class ModelEvaluator:

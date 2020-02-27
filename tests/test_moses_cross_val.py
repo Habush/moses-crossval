@@ -3,13 +3,12 @@ from models.objmodel import MosesModel, Score
 
 __author__ = "Abdulrahman Semrie<xabush@singularitynet.io>"
 import unittest
-from config import TEST_DATA_DIR, moses_options, crossval_options
+from utils.config import TEST_DATA_DIR, moses_options, crossval_options
 import os
-from moses_cross_val import CrossValidation
+from main.moses_cross_val import CrossValidation
 import pandas as pd
 import glob
 from sklearn.model_selection import train_test_split
-from unittest.mock import MagicMock
 
 
 class TestCrossValidation(unittest.TestCase):

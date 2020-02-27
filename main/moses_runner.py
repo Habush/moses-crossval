@@ -1,9 +1,8 @@
 __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 
-import logging
 import re
 import subprocess
-from config import get_logger
+from utils.config import get_logger
 from models.objmodel import MosesModel
 
 
