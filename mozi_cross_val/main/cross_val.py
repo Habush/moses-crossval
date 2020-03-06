@@ -6,7 +6,7 @@ import tempfile
 
 import pandas as pd
 from scipy import stats
-from sklearn.model_selection import ShuffleSplit
+from sklearn.model_selection import StratifiedShuffleSplit
 from mozi_cross_val.filters.loader import get_score_filters
 from mozi_cross_val.main.model_evaluator import ModelEvaluator
 from mozi_cross_val.main.moses_runner import MosesRunner
@@ -96,7 +96,7 @@ class CrossValidation:
 
         x, y = df.values, df[self.target_feature].values
         splits, test_size = self.cross_val_opts["folds"], self.cross_val_opts["testSize"]
-        cv = ShuffleSplit(n_splits=splits, test_size=test_size, random_state=42)
+        cv = StratifiedShuffleSplit(n_splits=splits, test_size=test_size, random_state=42)
 
         return x, df.columns.values, cv.split(x, y)
 
