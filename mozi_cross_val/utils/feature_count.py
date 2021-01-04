@@ -1,6 +1,6 @@
 __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 
-from lark.tree import Transformer
+from lark import Transformer
 from lark import Lark
 
 
