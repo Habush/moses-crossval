@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="moses_crossval",
-    version="0.3",
+    version="0.5",
     author="Abdulrahman Semrie",
     author_email="hsamireh@gmail.com",
     description="A tool to run cross-validation using moses",
