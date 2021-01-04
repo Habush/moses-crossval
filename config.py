@@ -5,7 +5,6 @@ import logging
 import logging.config
 import yaml
 
-
 TEST_DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "tests/data"))
 
 moses_options = "-j 8 --balance 1 -m 1000 -W 1 --output-cscore 1 --result-count 100 " \

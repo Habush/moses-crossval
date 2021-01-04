@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="moses_crossval",
-    version="0.1",
+    version="0.2",
     author="Abdulrahman Semrie",
     author_email="hsamireh@gmail.com",
     description="A tool to run cross-validation using moses",
@@ -13,6 +13,16 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Habus/moses-crossval",
     packages=setuptools.find_packages(),
+    install_requires = [
+        'lark-parser==0.5.5'
+        'numpy'
+        'pandas'
+        'mlxtend'
+        'scikit-learn'
+        'scipy'
+        'jsonpickle'
+        'pyyaml'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

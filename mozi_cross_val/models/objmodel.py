@@ -1,6 +1,6 @@
 __author__ = 'Abdulrahman Semrie<xabush@singularitynet.io>'
 import math
-from abc import  ABCMeta, abstractmethod
+from abc import ABCMeta, abstractmethod
 
 class BaseModel(metaclass=ABCMeta):
     def __init__(self, model, complexity):
